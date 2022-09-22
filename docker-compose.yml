@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  asteroidsinpy:
+    image: asteroidsinpy
+    build:
+      context: .
+      dockerfile: ./Dockerfile

@@ -38,7 +38,7 @@ class SpaceRocks:
 
     def _init_pygame(self):
         pygame.init()
-        pygame.display.set_caption("Space Rocks")
+        pygame.display.set_caption("B3KALB - ASTEROIDS.")
 
     def _handle_input(self):
         for event in pygame.event.get():
